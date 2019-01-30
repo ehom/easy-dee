@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## GitHub Page for EASY-DEE
 
 You can use the [editor on GitHub](https://github.com/ehom/easy-dee/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
