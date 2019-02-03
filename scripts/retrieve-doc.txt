@@ -1,0 +1,4 @@
+url: https://{yourorg}.easydita.com/rest/all-files/{file-id}
+user: username:password
+header: "Accept: application/xml"
+silent:
