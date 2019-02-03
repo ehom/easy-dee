@@ -4,8 +4,10 @@ This repo contains a set of command line scripts that are used to interact with 
 
 ### List of Scripts
 
-#### get-l10n-jobs.bash
+Each script simply calls the **curl** command one of the curl configuration files included.
 
-#### get-branches.bash
+- get-l10n-jobs.bash
 
-#### get-doc-bundle.bash
+- get-branches.bash
+
+- get-doc-bundle.bash
