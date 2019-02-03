@@ -2,7 +2,7 @@
 
 set -x
 
-curl --config get-doc-bundle.txt
+curl --config config/get-doc-bundle.txt
 
 echo
 
