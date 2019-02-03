@@ -1,0 +1,5 @@
+url: https://{yourorg}/rest/all-files/{document-id}/bundle
+user: {username}:{password}
+header: "Accept: application/xml"
+output: doc-bundle.zip
+silent:
