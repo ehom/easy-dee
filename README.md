@@ -8,5 +8,5 @@ Each script simply calls the **curl** command with one of the curl configuration
 
 - get-l10n-jobs.bash
 - get-branches.bash
+- get-doc-info.bash
 - get-doc-bundle.bash
-- retrieve-doc-info.bash
