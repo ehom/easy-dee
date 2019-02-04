@@ -27,10 +27,13 @@ Once you have the required information, go ahead and update each config file for
 
 ``` bash
 
-cat get-l10n-jobs.txt
+$ cat get-l10n-jobs.txt
+
 url: https://{yourorg}.easydita.com/rest/localization-jobs
 user: {username}:{password}
 header: "Accept: application/xml"
 silent:
+
+$
 
 ```
