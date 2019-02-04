@@ -1,5 +1,5 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
-curl --config config/get-branches.txt | xmllint --format -
+curl -K config/get-branches.txt | xmllint --format -
 
 echo

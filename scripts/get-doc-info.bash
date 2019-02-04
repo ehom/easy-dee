@@ -1,5 +1,5 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
-curl --config config/get-doc-info.txt | xmllint --format -
+curl -K config/get-doc-info.txt | xmllint --format -
 
 echo

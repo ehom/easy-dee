@@ -1,8 +1,8 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 set -x
 
-curl --config config/get-doc-bundle.txt
+curl -K config/get-doc-bundle.txt
 
 echo
 
