@@ -11,3 +11,26 @@ Each script simply calls the [curl](https://curl.haxx.se/docs/manpage.html) comm
 - get-doc-info.bash
 - get-doc-contents.bash
 - get-doc-bundle.bash
+
+#### Before using the script
+
+You will need to know your orgname for the base URL.
+
+```
+https://{yourorg}.easydita.com/rest
+
+```
+
+You will also need to know your account login (username and password).
+
+Once you have the required information, go ahead and update each config file for each script.
+
+``` bash
+
+cat get-l10n-jobs.txt
+url: https://{yourorg}.easydita.com/rest/localization-jobs
+user: {username}:{password}
+header: "Accept: application/xml"
+silent:
+
+```
