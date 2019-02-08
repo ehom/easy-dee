@@ -41,3 +41,13 @@ silent:
 $
 
 ```
+
+### Example Usage
+
+Save the list of localization jobs to a file
+
+```
+get-l10n-jobs.bash > l10n-jobs.output.xml
+
+```
+
