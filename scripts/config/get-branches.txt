@@ -1,4 +1,3 @@
 url: https://{yourorg}.easydita.com/rest/branches/
-user: {username}:{password}
 header: "Accept: application/xml"
 silent:

@@ -1,4 +1,3 @@
 url: https://{yourorg}.easydita.com/rest/localization-jobs
-user: {username}:{password}
 header: "Accept: application/xml"
 silent:

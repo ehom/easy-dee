@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-curl -K config/get-doc-contents.txt | xmllint --format -
+curl -K config/get-doc-contents.txt -K config/user-info.txt | xmllint --format -
 
 echo
 
