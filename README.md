@@ -44,7 +44,7 @@ $
 
 ### Example Usage
 
-Show list of localization jobs and save the output to a file (l10n-jobs.output.xml)
+Save the l10n jobs to a file (l10n-jobs.output.xml)
 
 ```
 get-l10n-jobs.bash l10n-jobs.output.xml 2>&1
