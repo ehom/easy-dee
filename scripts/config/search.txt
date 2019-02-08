@@ -1,0 +1,6 @@
+url: https://{yourorg}.easydita.com/ezdnxtgen/api/search
+header: "Accept: application/json"
+header: "Content-Type: application/json; charset=utf-8"
+
+data:  "{ \"foldersToSearch\": {\"/db/organizations/{yourorg}/repositories/\": true }, \"drilldowns\": [[[\"status\", \"approved\"]]], \"startOffset\": 0, \"endOffset\": 100, \"searchResultType\": \"FILES_ONLY\" }"
+
