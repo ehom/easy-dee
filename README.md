@@ -44,10 +44,10 @@ $
 
 ### Example Usage
 
-Save the l10n jobs to a file (l10n-jobs.output.xml)
+Save the list of localization jobs to a file
 
 ```
-get-l10n-jobs.bash l10n-jobs.output.xml 2>&1
+get-l10n-jobs.bash > l10n-jobs.output.xml
 
 ```
 
