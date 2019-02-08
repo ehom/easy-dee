@@ -1,4 +1,4 @@
-## easy-dee
+## easy-helper
 
 This repo contains a set of shell scripts you can use to interact with the [easyDITA](https://www.easydita.com) system.
 
