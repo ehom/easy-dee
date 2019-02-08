@@ -27,6 +27,15 @@ You will also need to know your account login (username and password).
 
 Once you have the required information, go ahead and update the config file for each script.
 
+``` bash
+
+$ cat user-info.txt
+
+user: {username}:{password}
+
+$
+```
+
 Here's what the curl config file looks like for the script that returns a list of localization jobs:
 
 
@@ -35,13 +44,13 @@ Here's what the curl config file looks like for the script that returns a list o
 $ cat get-l10n-jobs.txt
 
 url: https://{yourorg}.easydita.com/rest/localization-jobs
-user: {username}:{password}
 header: "Accept: application/xml"
 silent:
 
 $
 
 ```
+
 
 ### Example Usage
 
