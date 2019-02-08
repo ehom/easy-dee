@@ -15,7 +15,7 @@ This repo contains a set of shell scripts you can use to interact with the [easy
 
 Each script simply calls the [curl](https://curl.haxx.se/docs/manpage.html) command with one of the curl configuration files included.
 
-#### Before using the script
+#### Before using these scripts
 
 You will need to know your orgname for the base URL.
 
