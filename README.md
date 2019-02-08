@@ -17,17 +17,11 @@ Each script simply calls the [curl](https://curl.haxx.se/docs/manpage.html) comm
 
 #### Before using these scripts
 
-You will need to know your orgname for the base URL.
+You will need the following info:
 
+* your account login (username and password)
 
-```
-https://{yourorg}.easydita.com/rest
-```
-
-
-You will also need to know your account login (username and password).
-
-Once you have the required information, go ahead and update the config file for each script.
+Once you have that, replace the fields with that info.
 
 ``` bash
 
@@ -37,8 +31,15 @@ user: {username}:{password}
 
 ```
 
-Here's what the curl config file looks like for the script that returns a list of localization jobs:
+* your orgname for the base URL.
 
+```
+https://{yourorg}.easydita.com/rest
+```
+
+Once you have that info, go ahead and update the config file for each script.
+
+Here's what the curl config file looks like for the script that returns a list of localization jobs:
 
 ``` bash
 
