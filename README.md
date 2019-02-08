@@ -11,6 +11,7 @@ Each script simply calls the [curl](https://curl.haxx.se/docs/manpage.html) comm
 - get-doc-info.bash
 - get-doc-contents.bash
 - get-doc-bundle.bash
+- search.bash
 
 #### Before using the script
 
