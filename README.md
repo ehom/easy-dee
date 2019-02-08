@@ -21,7 +21,7 @@ You will need the following info:
 
 1. your account login (username and password)
 
-  Once you have that, replace the fields with that info.
+   Once you have that, replace the fields with that info.
 
    ``` bash
 
