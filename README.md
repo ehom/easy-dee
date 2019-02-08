@@ -6,14 +6,14 @@ This repo contains a set of shell scripts you can use to interact with the [easy
 
 ### List of Scripts
 
-Each script simply calls the [curl](https://curl.haxx.se/docs/manpage.html) command with one of the curl configuration files included.
-
 - get-l10n-jobs.bash
 - get-branches.bash
 - get-doc-info.bash
 - get-doc-contents.bash
 - get-doc-bundle.bash
 - search.bash
+
+Each script simply calls the [curl](https://curl.haxx.se/docs/manpage.html) command with one of the curl configuration files included.
 
 #### Before using the script
 
@@ -35,7 +35,6 @@ $ cat user-info.txt
 
 user: {username}:{password}
 
-$
 ```
 
 Here's what the curl config file looks like for the script that returns a list of localization jobs:
@@ -48,8 +47,6 @@ $ cat get-l10n-jobs.txt
 url: https://{yourorg}.easydita.com/rest/localization-jobs
 header: "Accept: application/xml"
 silent:
-
-$
 
 ```
 
