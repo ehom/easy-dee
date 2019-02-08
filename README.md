@@ -19,40 +19,40 @@ Each script simply calls the [curl](https://curl.haxx.se/docs/manpage.html) comm
 
 You will need the following info:
 
-* your account login (username and password)
+1. your account login (username and password)
 
-Once you have that, replace the fields with that info.
+  Once you have that, replace the fields with that info.
 
-``` bash
+   ``` bash
 
-$ cat user-info.txt
+   $ cat user-info.txt
 
-user: {username}:{password}
+   user: {username}:{password}
 
-```
+   ```
 
-* your orgname for the base URL.
+2. your orgname for the base URL
 
-```
-https://{yourorg}.easydita.com/rest
-```
+   ```
+   https://{yourorg}.easydita.com/rest
+   ```
 
-Once you have that info, go ahead and update the config file for each script.
+   Once you have that info, go ahead and update the config file for each script.
 
-Here's what the curl config file looks like for the script that returns a list of localization jobs:
+   Here's what the curl config file looks like for the script that returns a list of localization jobs:
 
-``` bash
+   ``` bash
 
-$ cat get-l10n-jobs.txt
+   $ cat get-l10n-jobs.txt
 
-url: https://{yourorg}.easydita.com/rest/localization-jobs
-header: "Accept: application/xml"
-silent:
+   url: https://{yourorg}.easydita.com/rest/localization-jobs
+   header: "Accept: application/xml"
+   silent:
 
-```
+   ```
 
 
-### Example Usage
+### Examples of Usage
 
 Save the list of localization jobs to a file
 
