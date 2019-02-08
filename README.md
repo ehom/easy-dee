@@ -2,7 +2,7 @@
 
 👋🏻🙂
 
-easy-helper is a set of shell scripts you can use to automate certain tasks with the [easyDITA](https://www.easydita.com) system.
+`easy-helper` is a set of shell scripts you can use to automate certain tasks with the [easyDITA](https://www.easydita.com) system.
 
 ### List of Scripts
 
